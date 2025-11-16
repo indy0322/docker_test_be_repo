@@ -16,7 +16,7 @@ public class CalcController {
 
     @GetMapping("/health")
     public ResponseEntity<String> health(){
-        return ResponseEntity.ok("I'm Alive Good!!!");
+        return ResponseEntity.ok("I'm Alive Good!!! nice!!!");
     }
 
     @PostMapping("/add")
